@@ -80,3 +80,5 @@
 .header nav a{min-height:24px;display:inline-flex;align-items:center}
 @media(max-width:370px){.header nav{font-size:10px;gap:5px}.hero h1{font-size:58px}.hero-actions{gap:16px}.hero-foot{gap:16px}.hero-foot>span{display:none}.portrait{height:420px}.portrait img{height:390px}.contact h2{font-size:30px}.skills-grid{gap:30px 12px}.skill-group li{font-size:11px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+
+.archive-disclosure>summary{width:fit-content;cursor:pointer;font-size:14px;color:var(--accent);padding:12px 0}.archive-disclosure[open]>summary{margin-bottom:20px}
